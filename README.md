@@ -1,4 +1,11 @@
-# resistor mesh test!
+# Resistor Mesh Problem!
+
+## Small set of tests for the replacement solution for solving for flows on a resistor network. Problems with known solutions were used:
+1. Resistor bridge. Solution by hand calculation
+2. A line of resistors with shunts between each. Solution by hand calculation
+3. 10x10 resistor mesh https://rosettacode.org/wiki/Resistor_mesh. Solutions given on the website in various programming languages
+
+
 
 Checking that igraph's ```laplacian_matrix()``` function works correctly. Comparing with solving using ngspice
 
